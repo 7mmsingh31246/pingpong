@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+<title>Select Rooms</title>
+<meta name="description" content="Simple in-browser ping-pong game written in javascript (using node.js as back-end server, socket.io and canvas on the client-side)" />
+<meta name="keywords" content="ping pong game, ping-pong, node.js, node, javascript, socket.io, canvas, HTML5" />
+<link href="http://fonts.googleapis.com/css?family=Open+Sans Condensed:300italic,300,700" rel="stylesheet" type="text/css">
+<link href="css/pong.css" rel="stylesheet" type="text/css">
+<script src="js/jquery.min.js" type="text/javascript"></script>
+</head>
+<body>
+<header class="header">
+  <h1 class="site-title"> <a href="#" id="logo">Register / <span>Login</span></a> </h1>
+</header>
+<section class="main section-login">
+  <div class="rooms section clearfix">
+    <h2>Please select to which room you want to connect:</h2>
+    <ul class="list-of-rooms">
+      <li class="room selected"><a href="players.html">room</a></li>
+      <li class="room"><a href="players.html">room</a></li>
+      <li class="room"><a href="players.html">room</a></li>
+      <li class="room"><a href="players.html">room</a></li>
+      <li class="room"><a href="players.html">room</a></li>
+      <li class="room"><a href="players.html">room</a></li>
+      <li class="room"><a href="players.html">room</a></li>
+      <li class="room"><a href="players.html">room</a></li>
+      <li class="room"><a href="players.html">room</a></li>
+      <li class="room"><a href="players.html">room</a></li>
+    </ul>
+  </div>
+  <div class="players section clearfix">
+    <ul class="list-of-players">
+      <li class="player selected">
+        <div class="player-info-img"><img src="images/unnamed.jpg"></div>
+        <div class="player-info"><strong>Name: </strong>Player 1</div>
+        <div class="player-info"><strong>Email: </strong>abc@example.com</div>
+        <div class="player-info"><strong>Country: </strong>India <img src="images/country_icons/in.png"></div>
+        <div class="player-info"><span class="btn disable">Connected</span></div>
+      </li>
+      <li class="player">
+        <div class="player-info-img"><img src="images/unnamed.jpg"></div>
+        <div class="player-info"><strong>Name: </strong>Player 1</div>
+        <div class="player-info"><strong>Email: </strong>abc@example.com</div>
+        <div class="player-info"><strong>Country: </strong>India <img src="images/country_icons/in.png"></div>
+        <div class="player-info"><span class="btn disable">Connected</span></div>
+      </li>
+    </ul>
+    <div class="link-to-play"><a class="btn" href="play.html">Play Now</a></div>
+  </div>
+</section>
+<footer class="footer hidden">
+  <form id="chatform">
+    <textarea id="message" placeholder="Write something.."></textarea>
+    <input type="submit" id="submit" value="SEND"/>
+  </form>
+</footer>
+</body>
+</html>

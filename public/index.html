@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+<title>Select Rooms</title>
+<meta name="description" content="Simple in-browser ping-pong game written in javascript (using node.js as back-end server, socket.io and canvas on the client-side)" />
+<meta name="keywords" content="ping pong game, ping-pong, node.js, node, javascript, socket.io, canvas, HTML5" />
+<link href="http://fonts.googleapis.com/css?family=Open+Sans Condensed:300italic,300,700" rel="stylesheet" type="text/css">
+<link href="css/pong.css" rel="stylesheet" type="text/css">
+<script src="js/jquery.min.js" type="text/javascript"></script>
+</head>
+<body>
+<header class="header header-home">
+  <h1 class="site-title"> <a href="#" id="logo">Pong<span> Game</span></a> </h1>
+</header>
+<section>
+  <div class="home-section">
+    <div><a title="Create" href="join.html" id="create"> <span id="createbutton"> <span id="little">join to play</span> <span id="big">Ping Pong!</span> </span> </a></div>
+    <div class="tutorial"> or download a copy of the source code here </a> </div>
+  </div>
+</section>
+<script src="/socket.io/socket.io.js"></script>
+<script src="js/client.js" type="text/javascript"></script>
+</body>
+</html>
